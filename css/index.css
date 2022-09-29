@@ -48,9 +48,7 @@ transition-duration:0.3s;
 li a:active{
     color:goldenrod;
     
-    }
-
-
+ }
 
 
 .image-style{
@@ -98,3 +96,18 @@ z-index:1;
     
  }
  
+#footer {
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 93%;
+    height: 120px;   
+    padding: 0px 3%;
+}
+
+main{
+position:relative;
+bottom:600px;
+}
