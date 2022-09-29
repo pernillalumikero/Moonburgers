@@ -1,0 +1,46 @@
+nav {
+    background-color: black;
+    width: 100%;
+    color: white;
+    grid-column: 1/3;
+}
+
+header {
+    grid-column: 1/3;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    
+}
+
+main {
+    border: 1px solid black;
+    grid-column: 1/2;
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#happy-couple {
+    width: 100%;
+}
+
+section {
+    border: 1px solid red;
+    
+}
+
+aside {
+    grid-column: 2/3;
+    border: 1px solid black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
