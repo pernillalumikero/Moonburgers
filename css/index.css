@@ -1,3 +1,100 @@
 .container {
     display: inline-block;
 }
+
+body{
+ margin:0;
+ padding:0;
+ width:100%;
+}
+
+
+ul{
+  list-style:none;
+  background-color:black;
+  padding:17px;
+  max-width:100%;
+  margin:0;
+  overflow:hidden;
+  position:sticky;
+  z-index:1;
+  top:0;
+  
+}
+
+li a{
+
+text-decoration:none;
+padding:13px;
+color:white;
+}
+
+li{
+ float:left;
+ margin-right:10%;
+ font-size:24px;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight:700;
+
+}
+
+li a:hover{
+color:#024AB3;
+text-shadow: 1px 1px 3px #024AB3;
+transition-duration:0.3s;
+
+}
+
+li a:active{
+    color:goldenrod;
+    
+    }
+
+
+
+
+.image-style{
+width:100%;
+height:120px;
+position:fixed;
+left:39%;
+bottom:584px;
+max-width:330px;
+z-index:1;
+}
+
+.banner-style{
+  width:100%;
+ height:450px;
+
+}
+
+.banner-container > h3 {
+   color: #51360A;
+   height:200px;
+   width:450px;
+   font-size:75px;
+   padding:10px;
+   left:60%;
+   position:relative;
+   bottom:500px;
+   text-align:center;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+}
+
+.banner-container > h4 {
+    color:#B98D47;
+    width:400px;
+    padding:10px;
+    left:61%;
+    position:relative;
+    bottom:700px;
+    font-size:45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+ }
+ 
