@@ -1,0 +1,145 @@
+.container{
+    display: grid;
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: black;
+    font-family: 'noto sans mono';
+    
+    color: rgb(224, 224, 20) ;
+    
+
+    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-rows: repeat(6, 1fr);
+} 
+
+
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding-top: 2%;
+
+}
+
+
+.Burgers {
+    font-size:35px ;
+    text-decoration: underline;
+    grid-row-start: 2; 
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    padding-left: 10%;
+    
+}
+
+
+#burgernamn{
+    line-height: 150%;
+   grid-row-start: 3;
+   grid-row-end: 4; 
+   grid-column-start: 1;
+   grid-column-end: 2;
+
+   margin-top: -15%;
+   padding-left:10%;
+
+   align-content: center;
+
+   
+}
+
+.priser{
+    font-size: 35px;
+    text-decoration: underline;
+
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+
+}
+
+#pris{
+    line-height: 150%;
+    grid-row-start: 3;
+    grid-row-end: 4; 
+    grid-column-start: 5;
+    grid-column-end: 6;
+ 
+    margin-top: -15%;
+    padding-left:10%;
+ 
+    align-content: center;
+
+}
+
+#star{
+    margin-top: 65px;
+}
+
+#moon{
+    margin-top: 85px;
+}
+
+
+.Sides {
+display: grid;
+    font-size: 25px;
+    text-decoration: underline;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    padding-left: 10%;
+}
+
+#sidesnamn{
+    margin-top: -50px;
+    line-height: 200%;
+    
+   grid-row-start: 6;
+   grid-row-end: 7; 
+   padding-left:10%;
+   word-spacing: 10px;
+}
+
+
+.Drinks {
+    font-size: 25px;
+    text-decoration: underline;
+    grid-column-start:5 ;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+
+}
+
+#drinksnamn {
+   
+    margin-top: -50px;
+    margin-left: 25px;
+    line-height: 200%;
+    text-align: center;
+    justify-items: center;
+    place-self: center; 
+    
+   grid-column-start:5;
+   grid-column-end:6; 
+
+   grid-row-start:6;
+   grid-row-end:7;
+   word-spacing: 10px ;
+  
+} 
+
+
+
