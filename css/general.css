@@ -1,7 +1,3 @@
-.container {
-    display: inline-block;
-}
-
 body{
  margin:0;
  padding:0;
@@ -108,7 +104,8 @@ z-index:1;
     color: white;
     text-align: center;
     bottom: 0;
-    width: 93%;
-    height: 120px;   
-    padding: 0px 3%;
+    width: 96%;
+    overflow-x: hidden;
+    height: 140px;   
+    padding: 0px 2%;
 }
