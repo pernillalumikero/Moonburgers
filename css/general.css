@@ -103,7 +103,7 @@ z-index:1;
 
 #footer {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     background-color: black;
     color: white;
     text-align: center;
