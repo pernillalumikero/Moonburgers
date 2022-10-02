@@ -6,22 +6,34 @@
 
 	grid-template-columns: repeat(4, 1fr);
 	
-	grid-template-rows: repeat(5, 150px);
+	grid-template-rows: repeat(4, 150px);
 	row-gap: 20px;
 }
 
 #welcome {
-    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 #offer {
-
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 #bigPicture {
-    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #ourVision {
-    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
