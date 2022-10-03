@@ -1,3 +1,7 @@
+h1 {
+    margin: 40px 43%;
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;
     color: white;
@@ -28,6 +32,13 @@ body {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.indexPic3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 #welcome {
@@ -63,6 +74,12 @@ body {
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 4;
+
+    margin: 300px 20px  20px 700px;
+}
+
+#bigPicture p {
+    font-size: 30px;
 }
 
 #ourVision {
