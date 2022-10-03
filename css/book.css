@@ -1,45 +1,121 @@
-/*body {
+:root {
+    /*spacing*/
+    --main-space: 2%;
+    --heading-space: 5%;
+
+    /*Font*/
+    --main-font: 'Noto Sans Mono', monospace;
+
+    /*Colors*/
+    --main-bg-color: black;
+    --secondary-bg-color: #B98D47;
+
+    --main-text-color: white;
+
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+#content {
     font-family: 'Noto Sans Mono', monospace;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: var(--main-space);
+    margin: var(--main-space);
+    margin-right: 4%;
 }
 
-nav {
-    background-color: black;
-    width: 100%;
-    color: white;
-    grid-column: 1/3;
-}
-
-header {
-    grid-column: 1/3;
-}
-
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     text-align: center;
-    
+}
+
+h2 {
+    margin-top: var(--heading-space);
+    margin-bottom: var(--heading-space);
+}
+
+h3 {
+    margin-top: var(--heading-space);
 }
 
 p {
     font-weight: bold;
+    padding: 0 var(--main-space);
 }
 
-main {
-    border: 1px solid black;
+
+#main {
     grid-column: 1/2;
 }
 
 #container1 {
     display: flex;
-    justify-content: space-evenly;
-    
+    flex-direction: row;
+    margin: var(--main-space);
+    column-gap: var(--main-space);
+}
+
+#container2 {
+  
+    border-radius: 5%;
+}
+
+section {
+    padding: var(--main-space);
+    flex: 1 1;
+    background: -webkit-linear-gradient(var(--secondary-bg-color), black);
+    border-radius: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: var(--main-space);
+    margin-bottom: var(--main-space);
+}
+
+label {
+    margin: var(--main-space) auto var(--main-space) 10%;
+}
+
+input {
+    display: block;
+}
+
+textarea {
+    width: 80%;
+}
+
+#terms {
+    display: inline;
+}
+
+#reference {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+
+input[type="submit"] {
+   background: -webkit-linear-gradient(var(--secondary-bg-color), black);
+   color: var(--main-text-color);
+   font-family: var(--main-font);
+   width: 30%;
+   padding: var(--main-space);
+   align-self: center;
+   margin: 5% auto;
+ 
 }
 
 #happy-couple {
     width: 100%;
-}
-
-section {
-    border: 1px solid red;
-    
 }
 
 aside {
@@ -47,8 +123,7 @@ aside {
     border: 1px solid black;
 }
 
-body {
-    display: grid;
-    grid-template-columns: 70% 30%;
+#footer {
+    grid-column: 1/3;
+    padding: 0%;
 }
-*/
