@@ -199,6 +199,15 @@ aside {
     margin-bottom: var(--main-space);
 }
 
+#socialmedia {
+    text-align: center;
+    padding: 15%;
+}
+
+#socialmedia > p {
+    margin-bottom: 10%;
+}
+
 .img-container {
     margin-bottom: 1%;
 }
@@ -210,6 +219,7 @@ aside {
 
 .icon {
     height: 50px;
+    margin: var(--main-space);
 }
 
 /*book-page specific footer styling*/
