@@ -22,11 +22,19 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
 #welcome {
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+}
+
+#bookButton {
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 55px 5px 5px 220px;
+    padding: 15px 30px;
 }
 
 #offer {
@@ -48,4 +56,8 @@ body {
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
+}
+
+a:link {
+    text-decoration: none;
 }
