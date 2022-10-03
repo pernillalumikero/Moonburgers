@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="css/book.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap" rel="stylesheet">
 </head>
-<body>
-    <ul>
-        <li style="margin-left:10%"><a href="#page1">Hem</a></li>
-        <li><a href="#page2">Boka bord</a></li>
-        <li style="float:right"><a href="#page3">Meny</a></li>
-        <li style="float:right"><a href="#page4">Om oss</a></li>   
-    </ul>
-    
-    <img class="image-style" src="img/moonburger.png">
-    
-    <div class="banner-container">
-    <img class="banner-style" src="img/moon.jpg">
-    
-    <h3>Moon Burgers</h3>
-    <h4>Solsystemets bästa hamburgarkedja på månen</h4>
-    
-    </div>
 
+<body>
     <div id="content">
+            <ul>
+                <li style="margin-left:10%"><a href="#page1">Hem</a></li>
+                <li><a href="#page2">Boka bord</a></li>
+                <li style="float:right"><a href="#page3">Meny</a></li>
+                <li style="float:right"><a href="#page4">Om oss</a></li>   
+            </ul>
+        <div id="header">
+        <img class="image-style" src="img/moonburger.png">
+        
+            <div class="banner-container">
+                <img class="banner-style" src="img/moon.jpg">
+                
+                <h3>Moon Burgers</h3>
+                <h4>Solsystemets bästa hamburgarkedja på månen</h4>
+            
+            </div>
+        </div>
+
         <h2>Bokningsguide</h2>
         <div id="main">
             <div id="container1">
@@ -55,55 +57,57 @@
                     <label for="phone">*Telefonnummer: <input id="phone" type="tel" required></label>
                     <label for="age">*Ålder: <input id="age" type="number" min="18" max="65" required></label>
                     <label for="month">När är du född?
-                        <select name="month" id="month">
-                            <option value="none"></option>
-                            <option value="january">Januari</option>
-                            <option value="february">Februari</option>
-                            <option value="march">Mars</option>
-                            <option value="april">April</option>
-                            <option value="may">Maj</option>
-                            <option value="june">Juni</option>
-                            <option value="july">Juli</option>
-                            <option value="august">Augusti</option>
-                            <option value="september">September</option>
-                            <option value="october">Oktober</option>
-                            <option value="november">November</option>
-                            <option value="december">December</option>
-                        </select>
-                        <select name="date" id="date">
-                            <option value="none"></option>
-                            <option value='01'>01</option>
-                            <option value='02'>02</option>
-                            <option value='03'>03</option>
-                            <option value='04'>04</option>
-                            <option value='05'>05</option>
-                            <option value='06'>06</option>
-                            <option value='07'>07</option>
-                            <option value='08'>08</option>
-                            <option value='09'>09</option>
-                            <option value='10'>10</option>
-                            <option value='11'>11</option>
-                            <option value='12'>12</option>
-                            <option value='13'>13</option>
-                            <option value='14'>14</option>
-                            <option value='15'>15</option>
-                            <option value='16'>16</option>
-                            <option value='17'>17</option>
-                            <option value='18'>18</option>
-                            <option value='19'>19</option>
-                            <option value='20'>20</option>
-                            <option value='21'>21</option>
-                            <option value='22'>22</option>
-                            <option value='23'>23</option>
-                            <option value='24'>24</option>
-                            <option value='25'>25</option>
-                            <option value='26'>26</option>
-                            <option value='27'>27</option>
-                            <option value='28'>28</option>
-                            <option value='29'>29</option>
-                            <option value='30'>30</option>
-                            <option value='31'>31</option>
-                        </select>
+                        <div id="born">
+                            <select name="month" id="month">
+                                <option value="none"></option>
+                                <option value="january">Januari</option>
+                                <option value="february">Februari</option>
+                                <option value="march">Mars</option>
+                                <option value="april">April</option>
+                                <option value="may">Maj</option>
+                                <option value="june">Juni</option>
+                                <option value="july">Juli</option>
+                                <option value="august">Augusti</option>
+                                <option value="september">September</option>
+                                <option value="october">Oktober</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </select>
+                            <select name="date" id="date">
+                                <option value="none"></option>
+                                <option value='01'>01</option>
+                                <option value='02'>02</option>
+                                <option value='03'>03</option>
+                                <option value='04'>04</option>
+                                <option value='05'>05</option>
+                                <option value='06'>06</option>
+                                <option value='07'>07</option>
+                                <option value='08'>08</option>
+                                <option value='09'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                                <option value='13'>13</option>
+                                <option value='14'>14</option>
+                                <option value='15'>15</option>
+                                <option value='16'>16</option>
+                                <option value='17'>17</option>
+                                <option value='18'>18</option>
+                                <option value='19'>19</option>
+                                <option value='20'>20</option>
+                                <option value='21'>21</option>
+                                <option value='22'>22</option>
+                                <option value='23'>23</option>
+                                <option value='24'>24</option>
+                                <option value='25'>25</option>
+                                <option value='26'>26</option>
+                                <option value='27'>27</option>
+                                <option value='28'>28</option>
+                                <option value='29'>29</option>
+                                <option value='30'>30</option>
+                                <option value='31'>31</option>
+                            </select>
+                        </div>
                     </label>
                     <label for="reference" id="reference">Hur hittade du oss?
                         <label for="google"><input type="radio" name="reference" id="google">Google</label>
@@ -123,6 +127,7 @@
                 </form>
             </div>
         </div>
+
         <aside>
             <section id="aside-section">
                 <div id="aside-text">
@@ -139,9 +144,15 @@
                 <div class="img-container">
                     <img id="moon-at-night" src="img/moon-night.jpg" alt="the moon in the dark night sky">
                 </div>
+                <div id="socialmedia">
+                    <p>Följ oss på socila medier:</p>
+                    <img class="icon" src="img/facebook-icon.png" alt="facebook-icon">
+                    <img class="icon" src="img/instagram-icon.png" alt="instagram-icon">
+                    <img class="icon" src="img/twitter-icon.png" alt="twitter-icon">
+                </div>
             </section>
         </aside>
-        
+
         <footer id="footer">
             <p>Tel: 076 123 45 67</p>
             <p>Address: Isafjordsgatan 30A, 164 40 Kista</p>
