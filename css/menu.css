@@ -1,11 +1,12 @@
 body{
     font-family: 'noto sans mono';
+    background-color: black;
     /* width: 100%; */
 }
 
 .container{
     display: grid;
-    max-width: 1200px;
+    max-width: 80%;
     height: 800px;
     margin: 0 auto;
     background-color: black;
