@@ -1,10 +1,13 @@
 h1 {
     margin: 40px 43%;
+    color: var(--secondary-bg-color);
 }
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--main-text-color);
     background-color: black;
 }
 

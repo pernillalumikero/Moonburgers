@@ -120,3 +120,19 @@ z-index:1;
 #banner p{
     margin: 150px auto auto 400px;
 }
+
+:root {
+    /*spacing*/
+    --main-space: 2%;
+
+    /*fonts*/
+    --main-font: 'Noto Sans Mono', monospace;
+
+    /*colors*/
+    --main-bg-color: black;
+    --secondary-bg-color: #B98D47;
+    --fade-color: #51360A;
+
+    --main-text-color: white;
+
+}
