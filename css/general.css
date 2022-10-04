@@ -100,7 +100,7 @@ margin-top: -90px;
 
 #footer {
     display: inline-block;
-    position: fixed;
+    position: static;
     background-color: rgb(31, 31, 31);
     color: white;
     text-align: center;
