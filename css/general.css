@@ -7,11 +7,31 @@
 
     /*colors*/
     --main-bg-color: black;
-    --secondary-bg-color: #B98D47;
+    --secondary-color: #B98D47;
     --fade-color: #51360A;
 
     --main-text-color: white;
+}
 
+h1, h2, h3, h4 {
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
 }
 
 body{
@@ -20,7 +40,7 @@ body{
  width:100%;
  font-family: 'Noto Sans', sans-serif;
  font-size: 14px;
- background-color: black;
+ background-color: var(--main-bg-color);
 }
 
 nav {
@@ -34,7 +54,7 @@ nav {
 
 ul{
   list-style:none;
-  background-color:black;
+  background-color: var(--main-bg-color);
   padding:17px;
   max-width:100%;
   margin:0;
@@ -48,7 +68,7 @@ li a{
 
 text-decoration:none;
 padding:13px;
-color:white;
+color: var(--main-text-color);
 }
 
 li{
@@ -76,11 +96,6 @@ li a:hover{
 text-decoration: underline;
 }
 
-li a:active{
-    color:goldenrod;
-    
- }
-
 
 .image-style{
 width:100%;
@@ -101,15 +116,14 @@ margin-top: -60px;
 }
 
 .banner-container > h3 {
-   color: #51360A;
-   height:200px;
-   width:450px;
-   font-size:75px;
-   padding:10px;
-   left:60%;
-   position:relative;
-   
-   text-align:center;
+   color: var(--fade-color);
+   height: 200px;
+   width: 450px;
+   font-size: 75px;
+   padding: 10px;
+   left: 60%;
+   position: relative;
+   text-align: center;
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
@@ -121,21 +135,15 @@ margin-top: -60px;
     padding:10px;
     left:61%;
     position:relative;
-   
     font-size:45px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     
  }
- 
- main{
-    position:relative;
-
-    }
 
 .button {
-   background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
+   background: -webkit-linear-gradient(var(--secondary-color), var(--fade-color));
    color: var(--main-text-color);
    font-family: var(--main-font);
    border: none;
@@ -152,7 +160,7 @@ margin-top: -60px;
     display: inline-block;
     position: static;
     background-color: rgb(31, 31, 31);
-    color: white;
+    color: var(--main-text-color);
     text-align: center;
     bottom: 0;
     width: 96%;
@@ -173,7 +181,7 @@ margin-top: -60px;
 }
 
 #banner p {
-    color: white;
+    color: var(--main-text-color);
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
