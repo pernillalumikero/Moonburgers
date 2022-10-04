@@ -173,6 +173,7 @@ margin-top: -60px;
 }
 
 #banner p {
+    color: white;
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
@@ -181,4 +182,5 @@ margin-top: -60px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: yellow;
 }
+
 
