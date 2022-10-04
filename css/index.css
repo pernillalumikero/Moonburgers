@@ -2,10 +2,6 @@ h1  {
     margin: 40px 43%;
 }
 
-h1, h2, h3, h4 {
-        color: var(--secondary-bg-color);
-}
-
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
@@ -96,7 +92,7 @@ body {
 }
 
 #ourVision {
-    grid-column-start: 4;
+    grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
