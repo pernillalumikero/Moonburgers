@@ -60,6 +60,7 @@ h3 {
   
     background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
