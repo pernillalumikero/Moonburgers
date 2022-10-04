@@ -1,6 +1,9 @@
-h1 {
+h1  {
     margin: 40px 43%;
-    color: var(--secondary-bg-color);
+}
+
+h1, h2, h3, h4 {
+        color: var(--secondary-bg-color);
 }
 
 body {
