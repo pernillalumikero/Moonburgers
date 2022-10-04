@@ -5,8 +5,17 @@ body{
  width:100%;
  font-family: 'Noto Sans', sans-serif;
  font-size: 14px;
+ background-color: black;
 }
 
+nav {
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
 
 ul{
   list-style:none;
@@ -18,7 +27,6 @@ ul{
   position:sticky;
   z-index:1;
   top:0;
-  
 }
 
 li a{
@@ -34,6 +42,20 @@ li{
  font-size: 18px;
  font-weight:700;
 
+}
+
+ul:first-child {
+        margin-left: 10%;
+}
+
+
+.menu-left {
+    float: left;
+
+}
+
+.menu-right {
+    float: right;
 }
 
 li a:hover{
@@ -54,7 +76,7 @@ left:39%;
 
 max-width:330px;
 z-index:1;
-margin-top: -90px;
+margin-top: -60px;
 
 }
 
@@ -112,14 +134,15 @@ margin-top: -90px;
 }
 
 #banner {
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     background-image: url(../img/moon.jpg);
-    padding: 50px;
-}
-
-#banner p{
-    margin: 150px auto auto 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: ;
+    padding-top: 100px;
+    padding-left: 20%;
 }
 
 :root {

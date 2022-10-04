@@ -140,7 +140,6 @@ input[type="submit"] {
    font-family: var(--main-font);
    width: 30%;
    border: none;
-   border-radius: 3%;
    padding: var(--main-space);
    align-self: center;
    margin: 5% auto;
