@@ -134,23 +134,6 @@ input[type="radio"] {
     display: inline;
 }
 
-input[type="submit"] {
-   background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
-   color: var(--main-text-color);
-   font-family: var(--main-font);
-   width: 30%;
-   border: none;
-   padding: var(--main-space);
-   align-self: center;
-   margin: 5% auto;
-   font-size: 18px;
-}
-
-input[type="submit"]:hover {
-    background: -webkit-linear-gradient(var(--fade-color), var(--secondary-bg-color));
-    
-}
-
 #born {
     display: flex;
 }
