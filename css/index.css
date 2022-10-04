@@ -1,0 +1,122 @@
+h1 {
+    margin: 40px 43%;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+	width: 80%;
+	margin: 0 auto;
+	column-gap: 5%;
+
+	grid-template-columns: repeat(6, 1fr);
+	
+	grid-template-rows: 500px 500px 700px 500px;
+	row-gap: 20px;
+}
+
+.indexPic {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.indexPic2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.indexPic3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.indexPicBig {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#welcome {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#bookButton {
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 55px 5px 5px 220px;
+    padding: 15px 30px;
+}
+
+#offer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#offer2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#bigPicture {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    margin: 300px 20px  20px 700px;
+}
+
+#bigPicture p {
+    font-size: 30px;
+}
+
+#ourVision {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1550px) {
+    .indexPic, .indexPic2 {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 960px) { 
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
