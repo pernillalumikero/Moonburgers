@@ -3,12 +3,12 @@
     --main-space: 2%;
 
     /*fonts*/
-    --main-font: 'Noto Sans Mono', monospace;
+    --main-font: 'Noto Sans', sans-serif;
 
     /*colors*/
     --main-bg-color: black;
-    --secondary-bg-color: #B98D47;
-    --fade-color: #51360A;
+    --secondary-bg-color: #b1771a;
+    --fade-color: #ba9353;
 
     --main-text-color: white;
 
@@ -48,21 +48,22 @@ h1, h2, h3, h4 {
 h2 {
     grid-column: 1/2;
     grid-row: 3;
-    font-size: 50px;
+    color: #b1771a;
+    /*
     background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    */
 }
 
 h3 {
-    font-size: 30px;
+  
     background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 p {
-    font-weight: bold;
     padding: 0 var(--main-space);
     margin: 0 var(--main-space);
 }
@@ -222,7 +223,6 @@ aside {
 
 #footer {
     grid-column: 1/3;
-    padding: 0%;
 }
 
 
