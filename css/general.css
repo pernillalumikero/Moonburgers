@@ -45,7 +45,7 @@ li{
 }
 
 ul:first-child {
-        margin-left: 10%;
+    padding-left: 10%;
 }
 
 
@@ -140,7 +140,6 @@ margin-top: -60px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transform: ;
     padding-top: 100px;
     padding-left: 20%;
 }
