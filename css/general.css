@@ -48,7 +48,6 @@ ul:first-child {
     padding-left: 10%;
 }
 
-
 .menu-left {
     float: left;
 
@@ -119,6 +118,22 @@ margin-top: -60px;
     position:relative;
 
     }
+
+.button {
+   background: -webkit-linear-gradient(var(--secondary-bg-color), var(--fade-color));
+   color: var(--main-text-color);
+   font-family: var(--main-font);
+   width: 20%;
+   border: none;
+   padding: var(--main-space);
+   align-self: center;
+   margin: 5% auto;
+   font-size: 18px;
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(var(--fade-color), var(--secondary-bg-color));  
+}
 
 #footer {
     display: inline-block;
