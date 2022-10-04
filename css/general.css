@@ -1,0 +1,11 @@
+#footer {
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 93%;
+    height: 120px;   
+    padding: 0px 3%;
+}
