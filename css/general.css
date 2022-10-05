@@ -192,4 +192,28 @@ margin-top: -60px;
     -webkit-text-stroke-color: yellow;
 }
 
+@media screen and (max-width: 960px) {
 
+    #footer {
+      flex-direction: column;
+      position: fixed;
+      height: 80px; 
+      text-align: left;
+      padding: 0px 20%;
+    }
+
+    #footer p{
+        margin: 2px;
+      }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        flex-direction: column;
+        position: fixed;
+        height: 80px; 
+        text-align: left;
+        padding: 0px 10%;
+      }
+}
