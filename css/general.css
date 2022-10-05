@@ -157,16 +157,17 @@ margin-top: -60px;
 }
 
 #footer {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between; 
     position: static;
     background-color: rgb(31, 31, 31);
     color: var(--main-text-color);
     text-align: center;
     bottom: 0;
-    width: 96%;
+    width: 50%;
     overflow-x: hidden;
     height: 70px;   
-    padding: 0px 2%;
+    padding: 0px 25%;
 }
 
 #banner {
