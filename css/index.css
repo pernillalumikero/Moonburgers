@@ -151,6 +151,11 @@ a:link {
 
 @media screen and (max-width: 1200px) {
 
+    .container {
+        grid-template-rows: 500px 500px 400px 400px 600px 600px;
+        row-gap: 60px;
+    }
+
     #bigPicture {
 
         margin: 300px 20px  20px 400px;
@@ -163,24 +168,133 @@ a:link {
         height: 50px;   
 
     }
+    .indexPic {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        z-index: -1;
+    }
+    
+    .indexPic2 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        z-index: -1;
+    }
+    
+    .indexPic3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        z-index: -1;
+    }
+    
+    .indexPicBig {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        z-index: -1;
+    }
+    
+    #welcome {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #bookButton {
+        font-weight: 600;
+        border-radius: 15px;
+        margin: 55px 5px 5px 220px;
+        padding: 15px 30px;
+    }
+    
+    #offer {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #offer2 {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    #bigPicture {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    
+        margin: 300px 20px  20px 400px;
+    }
+
+    #ourVision {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
 }
 
 @media screen and (max-width: 960px) { 
+    
+   
+    
     #bigPicture {
 
-        margin: 150px 20px  20px 300px;
+        margin: 150px 20px  10px 100px;
     }
 
 
     body {
         bottom: 50px;
     }
+
+    .container {
+        grid-template-rows: 700px 500px 700px 400px 600px 600px;
+        row-gap: 60px;
+    }
+
+    #bigPicture p {
+        font-size: 20px;
+    }
+
+    .button {
+        margin: 10% 0% 0% 20%;
+    }
+    
 }
 
 
 @media screen and (max-width: 768px) {
-    #bigPicture {
 
-        margin: 150px 20px  20px 200px;
+    h1 {
+        margin: 40px 30%;
+    }
+
+    .container {
+        grid-template-rows: 1000px 200px 600px 200px 600px 600px;
+        row-gap: 40px;
+    }
+
+    .indexPic {
+width: 150%;
+    }
+    
+    .indexPic2 {
+        width: 150%;;
+    }
+    
+    .indexPic3 {
+        width: 150%;;
     }
 }
