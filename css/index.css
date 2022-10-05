@@ -282,19 +282,19 @@ a:link {
     }
 
     .container {
-        grid-template-rows: 1100px 400px 600px 400px 600px 600px;
-        row-gap: 60px;
+        grid-template-rows: 1000px 200px 600px 200px 600px 600px;
+        row-gap: 40px;
     }
 
     .indexPic {
-width: 250px;
+width: 150%;
     }
     
     .indexPic2 {
-        width: 250px;
+        width: 150%;;
     }
     
     .indexPic3 {
-        width: 250px;
+        width: 150%;;
     }
 }
