@@ -5,6 +5,18 @@
 
 /*general styling*/
 
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+.image-style{
+width: 230px;
+position: absolute;
+z-index:1;
+margin-top: -60px;
+}
+
 body {
     color: var(--main-text-color);
 }
@@ -141,7 +153,11 @@ aside {
     height: fit-content;
     padding: var(--main-space);
     margin-right: var(--main-space);
-    
+}
+
+#aside-section {
+    display: flex;
+    flex-direction: column;
 }
 
 #socialmedia {
@@ -163,7 +179,62 @@ img {
     margin: 0 var(--main-space);
 }
 
+
 @media only screen and (max-width: 960px) {
+    #main-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    #h1-section, #main, h2, aside {
+        grid-column: 1/4;
+    }
 
+    #aside-section {
+        flex-direction: row-reverse;
+    }
+
+    #aside-section > div {
+        flex: 1 1;
+    }
+
+    #socialmedia {
+        padding: unset;
+        padding-top: 3%;
+    }
+
+    #burger-div, #moon-div {
+        display: none;
+    }
+
+    #rocket-pic, #happy-couple-pic {
+        height: 172px;
+        object-fit: cover;
+    }
+
+    .button {
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #container1 {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .main-section {
+        text-align: center;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    #socialmedia {
+        padding-bottom: 5%;
+    }
+
+    .button {
+        font-size: 14px;
+    }
 }
