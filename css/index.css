@@ -131,19 +131,28 @@ a:link {
     margin: 10% 0% 0% 40%;
 }
 
-@media screen and (max-width: 1550px) {
+
+@media screen and (max-width: 1350px) {
+
+    #footer {
+        position: fixed;
+        height: 80px;   
+    }
+
     .indexPic, .indexPic2 {
         width: 500px;
     }
 
     #bigPicture {
-
         margin: 300px 20px  20px 500px;
     }
 }
 
 
+
+
 @media screen and (max-width: 1200px) {
+
 
     .container {
         grid-template-rows: 500px 500px 400px 400px 600px 600px;
@@ -155,10 +164,7 @@ a:link {
         margin: 300px 20px  20px 400px;
     }
 
-    #footer {
-        position: fixed;
-        height: 80px;   
-    }
+  
     .indexPic {
         grid-column-start: 2;
         grid-column-end: 5;
