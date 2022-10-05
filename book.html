@@ -13,149 +13,149 @@
 </head>
 
 <body>
-            <ul>
-                <li class="menu-left"><a href="index.html">Hem</a></li>
-                <li class="menu-left"><a href="book.html">Boka bord</a></li>
-                <li class="menu-right"><a href="menu.html">Meny</a></li>
-                <li class="menu-right"><a href="about.html">Om oss</a></li>   
-            </ul>
+    <nav>
+        <ul>
+            <li class="menu-left"><a href="index.html">Hem</a></li>
+            <li class="menu-left"><a href="book.html">Boka bord</a></li>
+            <li class="menu-right"><a href="menu.html">Meny</a></li>
+            <li class="menu-right"><a href="about.html">Om oss</a></li>   
+        </ul>
+    </nav>
 
-        <div id="header">
-            <img class="image-style" src="img/moonburger.png">
-        </div>
-        
-        <div id="banner">
-            <p>Ryktet säger att vi har</p>
-            <p> galaxens bästa burgare</p>
-        </div>
-
-        <h1>Bokningsguide</h1>
-        <div id="main">
-            <div id="container1">
-                <section>
-                    <h4>Steg 1</h4>
-                    <p>Kontakta oss via formuläret nedan. Se till att fylla i alla fält som är obligatoriska.</p>
-                </section>
-                <section>
-                    <h4>Steg 2</h4>
-                    <p>Betala kontantinsatsen på 4,5 miljoner sek till vårt konto. Har vi inte pengar inom en vecka avbokas resan automatiskt.</p>
-                </section>
-                <section>
-                    <h4>Steg 3</h4>
-                    <p>När vi har tagit emot betalningen ringer vi personligen upp dig för att graulera dig till en plats på vår exklusiva restaurang.</p>
-                </section>
-            </div>
-            <div id="container2">
-                <h3>Kontakta oss</h3>
-                <p>Fyll i formuläret nedan för att boka ett bord på vår restaurang.</p>
-                <p id="small">*Obligatoriska fält</p>
-                <form action="">
-                    <label for="firstname">*Förnamn: <input id="firstname" type="text" required></label>
-                    <label for="lastname">*Efternamn: <input id="lastname" type="text" required></label>
-                    <label for="email">*Email: <input id="email" type="email" required></label>
-                    <label for="phone">*Telefonnummer: <input id="phone" type="tel" required></label>
-                    <label for="age">*Ålder: <input id="age" type="number" min="18" max="65" required></label>
-                    <label for="month">När är du född?
-                        <div id="born">
-                            <select name="month" id="month">
-                                <option value="none"></option>
-                                <option value="january">Januari</option>
-                                <option value="february">Februari</option>
-                                <option value="march">Mars</option>
-                                <option value="april">April</option>
-                                <option value="may">Maj</option>
-                                <option value="june">Juni</option>
-                                <option value="july">Juli</option>
-                                <option value="august">Augusti</option>
-                                <option value="september">September</option>
-                                <option value="october">Oktober</option>
-                                <option value="november">November</option>
-                                <option value="december">December</option>
-                            </select>
-                            <select name="date" id="date">
-                                <option value="none"></option>
-                                <option value='01'>01</option>
-                                <option value='02'>02</option>
-                                <option value='03'>03</option>
-                                <option value='04'>04</option>
-                                <option value='05'>05</option>
-                                <option value='06'>06</option>
-                                <option value='07'>07</option>
-                                <option value='08'>08</option>
-                                <option value='09'>09</option>
-                                <option value='10'>10</option>
-                                <option value='11'>11</option>
-                                <option value='12'>12</option>
-                                <option value='13'>13</option>
-                                <option value='14'>14</option>
-                                <option value='15'>15</option>
-                                <option value='16'>16</option>
-                                <option value='17'>17</option>
-                                <option value='18'>18</option>
-                                <option value='19'>19</option>
-                                <option value='20'>20</option>
-                                <option value='21'>21</option>
-                                <option value='22'>22</option>
-                                <option value='23'>23</option>
-                                <option value='24'>24</option>
-                                <option value='25'>25</option>
-                                <option value='26'>26</option>
-                                <option value='27'>27</option>
-                                <option value='28'>28</option>
-                                <option value='29'>29</option>
-                                <option value='30'>30</option>
-                                <option value='31'>31</option>
-                            </select>
-                        </div>
-                    </label>
-                    <label for="reference" id="reference">Hur hittade du oss?
-                        <label for="google"><input type="radio" name="reference" id="google">Google</label>
-                        <label for="facebook"><input type="radio" name="reference" id="facebook">Facebook</label>
-                        <label for="instagram"><input type="radio" name="reference" id="instagram">Instagram</label>
-                        <label for="friend"><input type="radio" name="reference" id="friend">Tips från vän</label>
-                        <label for="other"><input type="radio" name="reference" id="other">Annat</label>
-                    </label>
-                    <label for="comment">Önskemål eller annat meddelande till oss: <textarea id="comment" cols="30" rows="10"></textarea></label>
-                    <div id="checkboxes">
-                        <label for="terms" class="check-labels"><input id="terms" type="checkbox" required> Jag har läst och accepterar alla <a href="#">villkor</a> </label>
-                        <label for="update-mail" class="check-labels"><input id="update-mail" type="checkbox"> Jag vill få uppdateringar om resan via mail </label>
-                        <label for="update-phone" class="check-labels"><input id="update-phone" type="checkbox"> Jag vill få uppdateringar om resan via sms </label>
-                    </div>
-                    <input class="button" type="submit" value="Skicka">
-            
-                </form>
-            </div>
-        </div>
-
-        <aside>
-            <section id="aside-section">
-                <div id="aside-text">
-                    <h3>Snabbfakta</h3>
-                    <p>Pris: 1,5 miljarder kr</p>
-                    <p>Reseavstånd: 384,400 km</p>
-                    <p>Tidsåtgång: ca 152 timmar</p>
-                    <p>Antal personer: 8 st</p>
-                    <p><a href="about.html">Läs mer</a></p>
-                </div>
-                <div class="img-container">
-                    <img id="happy-couple" src="img/happy-couple.jpg" alt="Young, happy couple eating a meal with the amazing view from our resturant in the background">
-                </div>
-                <div class="img-container" id="pic2">
-                    <img id="moon-at-night" src="img/moon-night.jpg" alt="the moon in the dark night sky">
-                </div>
-                <div id="socialmedia">
-                    <p>Följ oss på sociala medier:</p>
-                    <a href="#"><img class="icon" src="img/facebook-icon.png" alt="facebook-icon"></a>
-                    <a href="#"><img class="icon" src="img/instagram-icon.png" alt="instagram-icon"></a>
-                    <a href="#"><img class="icon" src="img/twitter-icon.png" alt="twitter-icon"></a>
-                </div>
-            </section>
-        </aside>
-
-        <footer id="footer">
-            <p>Address: Isafjordsgatan 30A, 164 40 Kista&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 076 123 45 67&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: moon.burgers@moonmoon.com </p>
-        </footer>
-    
+    <div id="header">
+        <img class="image-style" src="img/moonburger.png">
     </div>
+        
+    <div id="banner">
+        <p>Ryktet säger att vi har</p>
+        <p> galaxens bästa burgare</p>
+    </div>
+
+    <h1>Bokningsguide</h1>
+    <div id="main">
+        <div id="container1">
+            <section>
+                <h4>Steg 1</h4>
+                <p>Kontakta oss via formuläret nedan. Se till att fylla i alla fält som är obligatoriska.</p>
+            </section>
+            <section>
+                <h4>Steg 2</h4>
+                <p>Betala kontantinsatsen på 4,5 miljoner sek till vårt konto. Har vi inte pengar inom en vecka avbokas resan automatiskt.</p>
+            </section>
+            <section>
+                <h4>Steg 3</h4>
+                <p>När vi har tagit emot betalningen ringer vi personligen upp dig för att graulera dig till en plats på vår exklusiva restaurang.</p>
+            </section>
+        </div>
+        <div id="container2">
+            <h3>Kontakta oss</h3>
+            <p>Fyll i formuläret nedan för att boka ett bord på vår restaurang.</p>
+            <p id="small">*Obligatoriska fält</p>
+            <form action="">
+                <label for="firstname">*Förnamn: <input id="firstname" type="text" required></label>
+                <label for="lastname">*Efternamn: <input id="lastname" type="text" required></label>
+                <label for="email">*Email: <input id="email" type="email" required></label>
+                <label for="phone">*Telefonnummer: <input id="phone" type="tel" required></label>
+                <label for="age">*Ålder: <input id="age" type="number" min="18" max="65" required></label>
+                <label for="month">När är du född?
+                    <div id="born">
+                        <select name="month" id="month">
+                            <option value="none"></option>
+                            <option value="january">Januari</option>
+                            <option value="february">Februari</option>
+                            <option value="march">Mars</option>
+                            <option value="april">April</option>
+                            <option value="may">Maj</option>
+                            <option value="june">Juni</option>
+                            <option value="july">Juli</option>
+                            <option value="august">Augusti</option>
+                            <option value="september">September</option>
+                            <option value="october">Oktober</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+                        <select name="date" id="date">
+                            <option value="none"></option>
+                            <option value='01'>01</option>
+                            <option value='02'>02</option>
+                            <option value='03'>03</option>
+                            <option value='04'>04</option>
+                            <option value='05'>05</option>
+                            <option value='06'>06</option>
+                            <option value='07'>07</option>
+                            <option value='08'>08</option>
+                            <option value='09'>09</option>
+                            <option value='10'>10</option>
+                            <option value='11'>11</option>
+                            <option value='12'>12</option>
+                            <option value='13'>13</option>
+                            <option value='14'>14</option>
+                            <option value='15'>15</option>
+                            <option value='16'>16</option>
+                            <option value='17'>17</option>
+                            <option value='18'>18</option>
+                            <option value='19'>19</option>
+                            <option value='20'>20</option>
+                            <option value='21'>21</option>
+                            <option value='22'>22</option>
+                            <option value='23'>23</option>
+                            <option value='24'>24</option>
+                            <option value='25'>25</option>
+                            <option value='26'>26</option>
+                            <option value='27'>27</option>
+                            <option value='28'>28</option>
+                            <option value='29'>29</option>
+                            <option value='30'>30</option>
+                            <option value='31'>31</option>
+                        </select>
+                    </div>
+                </label>
+                <label for="reference" id="reference">Hur hittade du oss?
+                    <label for="google"><input type="radio" name="reference" id="google">Google</label>
+                    <label for="facebook"><input type="radio" name="reference" id="facebook">Facebook</label>
+                    <label for="instagram"><input type="radio" name="reference" id="instagram">Instagram</label>
+                    <label for="friend"><input type="radio" name="reference" id="friend">Tips från vän</label>
+                    <label for="other"><input type="radio" name="reference" id="other">Annat</label>
+                </label>
+                <label for="comment">Önskemål eller annat meddelande till oss: <textarea id="comment" cols="30" rows="10"></textarea></label>
+                <div id="checkboxes">
+                    <label for="terms" class="check-labels"><input id="terms" type="checkbox" required> Jag har läst och accepterar alla <a href="#">villkor</a> </label>
+                    <label for="update-mail" class="check-labels"><input id="update-mail" type="checkbox"> Jag vill få uppdateringar om resan via mail </label>
+                    <label for="update-phone" class="check-labels"><input id="update-phone" type="checkbox"> Jag vill få uppdateringar om resan via sms </label>
+                </div>
+                <input class="button" type="submit" value="Skicka">
+        
+            </form>
+        </div>
+    </div>
+
+    <aside>
+        <section id="aside-section">
+            <div id="aside-text">
+                <h3>Snabbfakta</h3>
+                <p>Pris: 1,5 miljarder kr</p>
+                <p>Reseavstånd: 384,400 km</p>
+                <p>Tidsåtgång: ca 152 timmar</p>
+                <p>Antal personer: 8 st</p>
+                <p><a href="about.html">Läs mer</a></p>
+            </div>
+            <div class="img-container">
+                <img id="happy-couple" src="img/happy-couple.jpg" alt="Young, happy couple eating a meal with the amazing view from our resturant in the background">
+            </div>
+            <div class="img-container" id="pic2">
+                <img id="moon-at-night" src="img/moon-night.jpg" alt="the moon in the dark night sky">
+            </div>
+            <div id="socialmedia">
+                <p>Följ oss på sociala medier:</p>
+                <a href="#"><img class="icon" src="img/facebook-icon.png" alt="facebook-icon"></a>
+                <a href="#"><img class="icon" src="img/instagram-icon.png" alt="instagram-icon"></a>
+                <a href="#"><img class="icon" src="img/twitter-icon.png" alt="twitter-icon"></a>
+            </div>
+        </section>
+    </aside>
+
+    <footer id="footer">
+        <p>Address: Isafjordsgatan 30A, 164 40 Kista&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel: 076 123 45 67&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: moon.burgers@moonmoon.com </p>
+    </footer>
 </body>
 </html>
