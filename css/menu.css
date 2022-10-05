@@ -10,7 +10,7 @@ body{
     height: 800px;
     margin: 0 auto;
     background-color: black;
-    font-family: 'noto sans mono';
+    /* font-family: 'noto sans mono'; */
     
     color: rgb(224, 224, 20) ;
     
@@ -39,9 +39,9 @@ body{
 
 h1{
     color: var(--secondary-color);
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     grid-column-start: 3;
     grid-column-end: 5;
     padding-top: 2%;
@@ -180,4 +180,48 @@ display: grid;
 } 
 
 
+/* @media screen and (max-width: 960px){
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    }
+
+    #nybild, .image-style{
+        display: none;
+    }
+    h1{
+        grid-column-start:2 ;
+        grid-column-end:4 ;
+        text-align: center;
+    }
+
+    .Burgers, #burgernamn{
+        grid-column-start:2;
+        grid-column-end: 4;
+        grid-row-start:2 ;
+        grid-row-end:4;
+    }
+
+    .Sides, #sidesnamn
+
+    .priser, #pris, .Drinks, #drinksnamn{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr)
+} */
 
