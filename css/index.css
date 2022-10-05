@@ -234,7 +234,7 @@ a:link {
         grid-row-start: 5;
         grid-row-end: 6;
     
-        margin: 300px 20px  20px 700px;
+        margin: 300px 20px  20px 400px;
     }
 
     #ourVision {
@@ -251,7 +251,7 @@ a:link {
     
     #bigPicture {
 
-        margin: 150px 20px  20px 300px;
+        margin: 150px 20px  10px 100px;
     }
 
 
@@ -263,13 +263,38 @@ a:link {
         grid-template-rows: 700px 500px 700px 400px 600px 600px;
         row-gap: 60px;
     }
+
+    #bigPicture p {
+        font-size: 20px;
+    }
+
+    .button {
+        margin: 10% 0% 0% 20%;
+    }
     
 }
 
 
 @media screen and (max-width: 768px) {
-    #bigPicture {
 
-        margin: 150px 20px  20px 200px;
+    h1 {
+        margin: 40px 30%;
+    }
+
+    .container {
+        grid-template-rows: 1100px 400px 600px 400px 600px 600px;
+        row-gap: 60px;
+    }
+
+    .indexPic {
+width: 250px;
+    }
+    
+    .indexPic2 {
+        width: 250px;
+    }
+    
+    .indexPic3 {
+        width: 250px;
     }
 }
