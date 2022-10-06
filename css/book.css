@@ -191,6 +191,7 @@ img {
 
     #aside-section {
         flex-direction: row-reverse;
+        padding-bottom: 20%;
     }
 
     #aside-section > div {
@@ -231,7 +232,7 @@ img {
     }
 
     #socialmedia {
-        padding-bottom: 5%;
+        padding-bottom: 20%;
     }
 
     .button {
