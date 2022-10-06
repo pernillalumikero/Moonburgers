@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 
