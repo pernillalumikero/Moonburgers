@@ -180,48 +180,224 @@ display: grid;
 } 
 
 
-/* @media screen and (max-width: 960px){
+@media screen and (max-width: 768px){
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     }
 
-    #nybild, .image-style{
+    #nybild{
         display: none;
     }
+
+    .image-style{
+        display: none;
+    }
+
+
+
     h1{
-        grid-column-start:2 ;
-        grid-column-end:4 ;
+        grid-column-start:3 ;
+        grid-column-end:5 ;
         text-align: center;
     }
 
-    .Burgers, #burgernamn{
+    .Burgers {
+        grid-row-start: 2; 
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+        /* grid-column-start:2;
+        grid-column-end: 3; */
+        /* grid-row-start:3;
+        grid-row-end:4; */
+
+    }
+
+    #burgernamn{
+        grid-row-start: 3;
+   grid-row-end: 4; 
+   grid-column-start: 2;
+   grid-column-end: 3;
+   align-content: center;
+    }
+    
+    .Sides, {
         grid-column-start:2;
-        grid-column-end: 4;
-        grid-row-start:2 ;
+        grid-column-end:3;
+        grid-row-start:3;
         grid-row-end:4;
     }
 
-    .Sides, #sidesnamn
+        #sidesnamn{
+            grid-row-start:6;
+   grid-row-end:7; 
+   grid-column-start: 2;
+   margin-top: -40px;
+        }
 
-    .priser, #pris, .Drinks, #drinksnamn{
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
+    
+
+    .priser{
+text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
     }
+
+    #pris{
+        grid-row-start: 3;
+    grid-row-end: 4; 
+    grid-column-start: 5;
+    grid-column-end: 6;
+    align-content: center;
+    text-align: center;
+
+    } 
+
+    .Drinks{
+        grid-column-start:5 ;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        text-align: center;
+    }
+
+
+#drinksnamn{
+    text-align: center;
+    justify-items: center;
+    place-self: center; 
+    word-spacing: -10px;
+    
+   grid-column-start:5;
+   grid-column-end:6; 
+
+   grid-row-start:6;
+   grid-row-end:7;
+   margin-top: -40px;
+   margin-bottom: 55%;
+   margin-left: 25px;
+}
+
+}  
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+    .container{    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 
+#nybild{
+    display: none;
+}
+
+.image-style{
+    display: none;
+}
+
+#header{
+    display: none;
+}
+
+h1{
+    /* grid-column-start:3 ;
+    grid-column-end:5 ; */
+    text-align: center;
+}
+
+.Burgers {
+    grid-row-start: 1; 
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: 2;
+    /* grid-column-start:2;
+    grid-column-end: 3; */
+    /* grid-row-start:3;
+    grid-row-end:4; */
+
+}
+
+#burgernamn{
+    margin-top: 30%;
+    grid-row-start: 3;
+grid-row-end: 4; 
+grid-column-start: 2;
+grid-column-end: 3;
+align-content: center;
+}
+
+.Sides {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+    #sidesnamn{
+        margin-top: -300%;
+        grid-row-start:4;
+grid-row-end:4; 
+grid-column-start:3;
+margin-top: -50px;
+    }
 
 
 
+/* .priser{
+text-align: center;
+grid-column-start: 5;
+grid-column-end: 6;
+
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+#pris{
+    grid-row-start: 3;
+grid-row-end: 4; 
+grid-column-start: 5;
+grid-column-end: 6;
+align-content: center;
+text-align: center;
+
+} 
+
+.Drinks{
+    grid-column-start:5 ;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    text-align: center;
+}
 
 
-@media screen and (max-width: 768px){
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr)
+#drinksnamn{
+text-align: center;
+justify-items: center;
+place-self: center; 
+
+grid-column-start:5;
+grid-column-end:6; 
+
+grid-row-start:6;
+grid-row-end:7;
+word-spacing: 10px ;
+margin-top: -50px;
+margin-left: 25px;
 } */
 
+
+
+}  
