@@ -72,10 +72,9 @@ color: var(--main-text-color);
 }
 
 li{
- float:left;
- margin-right:10%;
- font-size: 18px;
- font-weight:700;
+    margin-right:10%;
+    font-size: 18px;
+    font-weight:700;
 
 }
 
@@ -217,4 +216,13 @@ margin-top: -60px;
         padding: 0px 10%;
         width: 80%;
       }
+
+      li {
+        margin: 2%;
+      }
+
+      ul:first-child {
+        padding-left: unset;
+    }
+
 }
