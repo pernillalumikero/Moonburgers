@@ -135,7 +135,7 @@ li a:hover{
     -webkit-text-stroke-color: black;
  }
 
-.button, #bookLink {
+.button {
     background: -webkit-linear-gradient(var(--secondary-color), var(--fade-color));
     color: var(--main-text-color);
     font-family: var(--main-font);
