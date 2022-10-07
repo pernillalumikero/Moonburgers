@@ -140,7 +140,7 @@ margin-top: -60px;
     
  }
 
-.button {
+.button, #bookLink {
    background: -webkit-linear-gradient(var(--secondary-color), var(--fade-color));
    color: var(--main-text-color);
    font-family: var(--main-font);

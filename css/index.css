@@ -84,11 +84,8 @@ body {
     grid-row-end: 2;
 }
 
-#bookButton {
-    font-weight: 600;
-    border-radius: 15px;
-    margin: 55px 5px 5px 220px;
-    padding: 15px 30px;
+#welcome p {
+    margin-bottom: 25px;
 }
 
 #offer {
@@ -133,6 +130,13 @@ a:link {
 
 .button {
     margin: 10% 0% 0% 40%;
+}
+
+#bookLink {
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 55px 5px 5px 220px;
+    padding: 15px 30px;
 }
 
 
