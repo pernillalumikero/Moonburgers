@@ -20,9 +20,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	column-gap: 5%;
-
 	grid-template-columns: repeat(6, 1fr);
-	
 	grid-template-rows: 500px 500px 700px 500px;
 	row-gap: 60px;
 }
@@ -35,7 +33,6 @@ body {
     flex-direction: row;
 }
 
-
 .flexContent {
     margin: 20px 5px;
     display: flex;
@@ -46,8 +43,6 @@ body {
     align-content: center;
     justify-content: center;
 }
-
-
 
 .indexPic {
     grid-column-start: 1;
@@ -64,7 +59,6 @@ body {
     grid-row-start: 2;
     grid-row-end: 3;
     z-index: -1;
-
     width: 500px;
 }
 
@@ -84,11 +78,8 @@ body {
     grid-row-end: 2;
 }
 
-#bookButton {
-    font-weight: 600;
-    border-radius: 15px;
-    margin: 55px 5px 5px 220px;
-    padding: 15px 30px;
+#welcome p {
+    margin-bottom: 25px;
 }
 
 #offer {
@@ -110,7 +101,6 @@ body {
     grid-column-end: 7;
     grid-row-start: 3;
     grid-row-end: 4;
-
     margin: 300px 20px  20px 700px;
 }
 
@@ -123,7 +113,6 @@ body {
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 5;
-
     margin-bottom: 10%;
 }
 
@@ -135,12 +124,18 @@ a:link {
     margin: 10% 0% 0% 40%;
 }
 
+#bookLink {
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 55px 5px 5px 220px;
+    padding: 15px 30px;
+}
+
 
 @media screen and (max-width: 1450px) {
 
     #footer {
         position: fixed;
-        
     }
 
     #bigPicture {
@@ -153,18 +148,15 @@ a:link {
 
 @media screen and (max-width: 1200px) {
 
-
     .container {
         grid-template-rows: 500px 500px 400px 400px 600px 600px;
         row-gap: 60px;
     }
 
     #bigPicture {
-
         margin: 300px 20px  20px 400px;
     }
 
-  
     .indexPic {
         grid-column-start: 2;
         grid-column-end: 5;
@@ -180,7 +172,6 @@ a:link {
         grid-row-end: 5;
         z-index: -1;
     }
-    
     
     .indexPicBig {
         grid-column-start: 1;
@@ -223,7 +214,6 @@ a:link {
         grid-column-end: 7;
         grid-row-start: 5;
         grid-row-end: 6;
-    
         margin: 300px 20px  20px 400px;
     }
 
@@ -237,13 +227,9 @@ a:link {
 
 @media screen and (max-width: 960px) { 
     
-   
-    
     #bigPicture {
-
         margin: 150px 20px  10px 100px;
     }
-
 
     body {
         bottom: 50px;
@@ -261,7 +247,6 @@ a:link {
     .button {
         margin: 10% 0% 0% 20%;
     }
-    
 }
 
 
@@ -277,11 +262,10 @@ a:link {
     }
 
     .indexPic {
-width: 150%;
+        width: 150%;
     }
     
     .indexPic2 {
         width: 150%;;
     }
-    
 }
